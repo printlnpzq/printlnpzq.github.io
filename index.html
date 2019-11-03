@@ -1,66 +1,249 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta charset="utf-8" />
-	<title>小人推箱子</title>
-	<link rel="stylesheet" type="text/css" href="css/pushBox.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="index.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
 
-	<div class="game">
-		
-		<div class="game-map gaming">
-			<!-- 游戏地图区域 -->
-			<canvas id="canvas" width="560" height="560"></canvas>
-		</div>
-		
+<body >
+<!--总体框架-->
+<center>
+<div id="whole">
 
-		<!-- 关卡序号，人物移动次数信息 -->
-		<div id="msg" class="game-info gaming">
-			<ul class="game-info-list">
-				<li>
-					<i class="nail nail1"></i>
-					<i class="nail nail2"></i>
-					<div class="card-box">
-						<span class="card-title card">目前关卡</span><span id="cardCount" class="card-count card">1</span>
-					</div>
-				</li>
-				<li class="list">
-					<i class="nail list1"></i>
-					<div class="pass-btn">
-						<span class="step-count">移动步数</span>
-						<span id="stepCount">0</span>
-					</div>
-				</li>
-				<li id="-1" class="list level">
-					<i class="nail list1"></i>
-					<div class="pass-btn">上一关</div>
-				</li>
-				<li id="1" class="list level">
-					<i class="nail list1"></i>
-					<div class="pass-btn">下一关</div>
-				</li>
-				<li id="0" class="list level">
-					<i class="nail list1"></i>
-					<div class="pass-btn">重玩本关</div>
-				</li>
-				<li class="list">
-					<i class="nail list1"></i>
-					<div id="gameIntroduce" class="pass-btn">游戏说明</div>
-				</li>
-			</ul>
-		</div>
+  <!--欢迎开始-->
+  <div class="huanying">
+  <p>您好，欢迎来到湛江</p>
+  <span><a href="jieshao.html">景点介绍</a>  <a href="lianxi.html">联系我们</a></span>
+  </div>
+  <!--欢迎结束-->
 
-		<div id="layer" class="layer">
-			<div class="layer-box">
-				<div>请按键盘方向键(上下左右箭头)进行移动人物</div>
-				<div id="know" class="know">知道了</div>
-			</div>
-		</div>
+   <!--头部开始-->
+   <div id="whole_img">
+   <div id="whole_img_wenzi">Eight scenes in Zhanjiang&nbsp;<h2>广东湛江</h2></div>
+   <ul>
+   </ul>
+   </div>
+   <!--头部结束-->
+   <div class="clearit"></div>
+   <div class="hSpace10"></div>
+   
+   <!--中部开始-->
+ 	<div class="content">
+    
+	<!--左部分开始-->
+    <div class="content_1_whole">
+	<div class="content_l">
+    
+	<ul>
+	<li><a href="index.html">首页</a></li>
+	<li><a href="jingdian.html">景点介绍</a></li>
+	<li><a href="gonglue.html">旅游攻略</a></li>
+	<li><a href="tupian.html">图片赏析</a></li>
+	
+	<li><a href="connection.html">联系我们</a></li>
+	</ul>
+    </div>
+    
+	<div class="hSpace10"></div>
+    <div class="bottom_cen_img1"></div>
+    <div class="bottom_cen_img2"></div>
 
+	<!--介绍-->
+    <div id="bottom_cen_whole">
+      	<div id="bottom_cen">
+        	<ul>
+            	<li><a id="bottom_cen_wenzi">中文名称:</a>湛江八景  </li>
+                <li><a id="bottom_cen_wenzi">地理位置:</a>广东沿海</li>
+                <li><a id="bottom_cen_wenzi">气候类型:</a>&nbsp;热带   </li>
+                <li><a id="bottom_cen_wenzi">所属国家:</a>&nbsp;中国  </li>
+            </ul>
+        </div>
+     </div>
+   <!--介绍结束-->
+   
 	</div>
+	<!--左部分结束-->
+     <!--右部分开始-->
 
-	<script type="text/javascript" src="./js/mapdata.js"></script>
-	<script type="text/javascript" src="./js/game.js"></script>
+    <div class="content_r">
+	 <!--左尾部开始-->
+	<div class="l_weibu">
+
+	<!--介绍开始-->
+	<div class="jieshao">
+	<div class="jieshaoA"><h4>湛江八景</h4></div>
+	<div class="clearit"></div>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;广东省“<a href="#1">湛江八景</a>”指 东海旭日-东海岛、湖光镜月-湖光岩、长廊观海-观海长廊、寸金浩气-寸金桥公园、 硇洲古韵-硇洲岛、南亚奇园-南亚热带植物园、南三听涛-南三岛、港湾揽胜-湛江港湾。<p>&nbsp;&nbsp;&nbsp;蓝天，白云，碧海，帆影......<a href="https://baike.baidu.com/item/%E6%B9%9B%E6%B1%9F?fromtitle=%E6%B9%9B%E6%B1%9F%E5%B8%82&fromid=425574">湛江市</a>位于祖国大陆最南端的雷州半岛海港城市，历来以环境优美而著称。1959年湛江就获得了花园城市的称号。后来又获得了许多赞誉。邓小平同志说湛江是“<a href="https://baike.baidu.com/item/%E5%8C%97%E6%9C%89%E9%9D%92%E5%B2%9B%EF%BC%8C%E5%8D%97%E6%9C%89%E6%B9%9B%E6%B1%9F">北有青岛，南有湛江</a>”。因而得名“南方的青岛”。周恩来总理称赞湛江“房子建在树林中，既幽静，有雅致”，像个“<a href="https://baike.baidu.com/item/%E5%B0%8F%E5%B7%B4%E9%BB%8E/5934637">小巴黎</a>”。诗人艾青在湛江分别留下【湛江十日】、【江，夹竹桃】等散文美丽的湛江。</p>
+	</div>
+    
+	<!--介绍结束-->
+	</div>
+	<!--左尾部结束-->
+    <!--右尾部开始-->
+<div class="r_weibu">
+<!--动态开始-->
+<div class="hSpace5"></div>
+<div class="xundao">
+
+<script type="text/javascript" language="JavaScript">
+var widths=450;    
+var w=2;
+var widthss=widths+w;
+var heights=300; 
+var heightss=heightss+w;
+var heightt=20;
+var counts=3;     
+
+img1=new Image();img1.src='images/1.jpg';
+url1=new Image();url1.src='#';
+
+img2=new Image();img2.src='images/2.jpg';
+url2=new Image();url2.src='#';
+
+img3=new Image();img3.src='images/3.jpg';
+url3=new Image();url3.src='#';
+
+var nn=1; //当前所显示的滚动图
+var key=0;    //标识是否为第一次开始执行
+var tt;    //标识作用
+
+function change_img()
+{
+if(key==0){key=1;} //如果第一次执行KEY=1，表示已经执行过一次了。
+else if(document.all)//document.all仅IE6/7认识，firefox不会执行此段内容
+{
+document.getElementById("pic").filters[0].Apply(); //将滤镜应用到对像上
+document.getElementById("pic").filters[0].Play(duration=2);  //开始转换
+document.getElementById("pic").filters[0].Transition=23;//转换效果
+}
+
+eval('document.getElementById("pic").src=img'+nn+'.src');     //替换图片
+eval('document.getElementById("url").href=url'+nn+'.src'); //替换URL
+ //替换ALT
+
+for (var i=1;i<=counts;i++)
+{
+    document.getElementById("xxjdjj"+i).className='axx';     
+}
+document.getElementById("xxjdjj"+nn).className='bxx';  //将当前页面的ID设置为选中状态
+nn++;
+if(nn>counts){nn=1;}    //如果ID大于总图片数量。则从头开始循环
+tt=setTimeout('change_img()',2000);    //在4秒后重新执行change_img()方法.
+}
+function changeimg(n)//点击黑条上的链接执行的方法。
+{
+nn=n; //当前页面的ID等于传入的N值,
+window.clearInterval(tt); //清除用于循环的TT
+//重新执行change_img();但change_img()内所调用的图片ID已经在此处被修改,会从新ID处开始执行.
+change_img();
+}
+//样式表
+document.write('<style>');
+document.write('.axx{padding:1px 6px;margin-left:3px;border-left:#cccccc 1px solid;font-size:12px;}');
+document.write('a.axx:link,a.axx:visited{text-decoration:none;color:#666;');
+document.write('line-height:12px;font:12px sans-serif;background-color:#eee;border:1px solid #666}');
+
+document.write('.bxx{padding:1px 6px;margin-left:3px;border-left:#cccccc 1px solid;}');
+document.write('a.bxx:link,a.bxx:visited{text-decoration:none;color:#111;');
+document.write('line-height:12px;font:12px sans-serif;background-color:#fff;border:1px solid #111}');
+
+document.write('</style>');
+//内容部分
+document.write('<div style="width:'+widthss+'px;height:'+heights+'px;');
+document.write('overflow:hidden;text-overflow:clip;float:left;">');
+document.write('<div><a id="url" target="_blank"><img id="pic" ');
+document.write('style="border:0;');
+document.write('FILTER: progid:DXImageTransform.Microsoft.RevealTrans (duration=2,transition=23)"');
+document.write(' width='+widths+' height='+heights+' /></a></div>');
+document.write('<div style="filter:alpha(style=1,opacity=10,finishOpacity=90);');
+document.write('width:100%-2px;text-align:right;');
+document.write('top:-19px;position:relative;margin:-5px 9px 0 1px;height:22px;line-height:22px;');
+document.write('z-index:4000;"><div style="height:22px;line-height:22px;padding:2px 0 0 0;">');
+for(var i=1;i<counts+1;i++)
+{
+document.write('<a href="javascript:changeimg('+i+');" id="xxjdjj'+i+'"');
+document.write(' class="axx" target="_self">'+i+'</a>');
+}
+document.write('</div></div></div>');
+change_img();
+</script>
+
+</div>
+<!--动态结束-->
+<div class="hSpace5"></div>
+<!--动态结束-->
+<div class="hSpace5"></div>
+
+</div>
+ <!--右尾部结束-->
+
+    <!--目录开始-->
+       <div id="centent_bottom">
+      <!--介绍开始-->
+<div class="mingxing">
+<ul>湛江八景目录</a>
+</ul>
+</div>
+<!--介绍结束-->
+<!--湛江八个景点名称-->
+        <table cellpadding="18" id="centent_bottom_tabel">
+        	<tr>
+                <td  id="centent_bottom_tr"><img src="images/main_mid_bottom_01.gif" height="30" width="50" />&nbsp;<a href="https://baike.baidu.com/item/%E4%B8%9C%E6%B5%B7%E5%B2%9B/3366200">东海旭日</a><br /><br /> <img src="images/main_mid_bottom_01.gif" height="30" width="50" />&nbsp;<a href="https://baike.baidu.com/item/%E6%B9%96%E5%85%89%E5%B2%A9%E9%A3%8E%E6%99%AF%E5%8C%BA?fromtitle=%E6%B9%96%E5%85%89%E5%B2%A9&fromid=459000">湖光镜月</a></td>
+                <td id="centent_bottom_tr"><img src="images/main_mid_bottom_01.gif" height="30" width="50" />&nbsp;<a href="https://baike.baidu.com/item/%E8%A7%82%E6%B5%B7%E9%95%BF%E5%BB%8A">长廊观海</a><br />  <br /> <img src="images/main_mid_bottom_01.gif" height="30" width="50" />&nbsp;<a href="https://baike.baidu.com/item/%E5%AF%B8%E9%87%91%E6%A1%A5%E5%85%AC%E5%9B%AD">寸金浩气</a></td>
+                <td id="centent_bottom_tr"><img src="images/main_mid_bottom_01.gif" height="30" width="50" />&nbsp;<a href="https://baike.baidu.com/item/%E7%A1%87%E6%B4%B2%E5%B2%9B/3366109">硇洲古韵</a><br /> <br />   <img src="images/main_mid_bottom_01.gif" height="30" width="50" />&nbsp;<a href="https://baike.baidu.com/item/%E6%B9%9B%E6%B1%9F%E5%8D%97%E4%BA%9A%E7%83%AD%E5%B8%A6%E6%A4%8D%E7%89%A9%E5%9B%AD?fromtitle=%E5%8D%97%E4%BA%9A%E7%83%AD%E5%B8%A6%E6%A4%8D%E7%89%A9%E5%9B%AD&fromid=8825748">南亚奇园</a></td>
+                <td id="centent_bottom_tr1"><img src="images/main_mid_bottom_01.gif" height="30" width="50" />&nbsp;<a href="https://baike.baidu.com/item/%E5%8D%97%E4%B8%89%E5%B2%9B">南三听涛</a><br /> <br />  <img src="images/main_mid_bottom_01.gif" height="30" width="50" />&nbsp;<a href="https://baike.baidu.com/item/%E6%B9%9B%E6%B1%9F%E6%B8%AF%E6%B9%BE">港湾揽胜</a></td>
+            </tr>
+        </table>
+      </div>
+        <!--湛江八个景点名称结束-->
+
+
+<!--湛江八景的图片开始-->
+
+<div id="centent_cent">
+        <img src="images/5fdf8db1cb13495418425b9f5f4e9258d0094ae8.jpg" height="145" width="180" />
+    		<img src="images/0df431adcbef7609455ac8862cdda3cc7cd99e51.jpg" height="145" width="180" />
+            <img src="images/d50735fae6cd7b8977f4f63b0d2442a7d8330eea.jpg" height="145" width="180" />
+            <img src="images/11385343fbf2b2113fc9085cca8065380cd78e39.jpg" height="145" width="180" />
+            <br />
+            <span>东海旭日</a></span><span>湖光镜月</span><span>长廊观海</span><span>寸金浩气</span>
+            
+          </div>
+ <div id="centent_cent"><img src="images/574e9258d109b3dee627f295c5bf6c81810a4cb6.jpg" height="145" width="180" />
+ <img src="images/cc.jpg" height="145" width="180" />
+            <img src="images/6a600c338744ebf82bd645d9dff9d72a6159a7b4.jpg" height="145" width="180" />
+            <img src="images/b3fb43166d224f4a81e8c9fb00f790529922d1e1.jpg" height="145" width="180" />
+            <br />
+            <span>硇洲古韵</span><span>南亚奇园</span><span>南三听涛</span><span>港湾揽胜</span>
+            </div>  
+           
+ <!--湛江八景的图片结束-->  
+      </div>
+<!--目录结束-->
+<!--图片滚动开始-->
+<div class="hSpace11"><div class="hSpace11h3"<h3>图片赏析</h3></div></div>
+<div class="zhici">
+<marquee>  
+<img src="images/tupian1.jpg" />
+<img src="images/tupian2.jpg" />
+<img src="images/tupian3.jpg" />
+<img src="images/tupian4.jpg" />
+<img src="images/tupian5.jpg" />
+<img src="images/tupian6.jpg" />
+<img src="images/tupian7.jpg" />
+</marquee>
+</div>
+</div>
+<!--图片滚动开始-->
+
+         <div id="footer">PangZhiqi @2019 湛江八景|Eight scenes in Zhanjiang</div>
+
+
+
+ 
+</div>
+<!--总体框架的-->  
+</center>
 </body>
 </html>
