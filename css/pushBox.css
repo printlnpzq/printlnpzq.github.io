@@ -1,0 +1,128 @@
+body{
+	margin:0 auto;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.game{
+	width:900px;
+	margin:50px auto;
+	overflow: hidden;
+	position: relative;
+	background-color: #C5E1A5;
+}
+.game>.gaming{
+	float: left;
+}
+.game>.game-map{
+	width: 560px;
+	height: 560px;
+}
+.game>.game-info{
+	width: 340px;
+	height: 560px;
+}
+.game .game-info-list{
+	padding: 20px;
+}
+.game .game-info-list>li{
+	text-align: center;
+	position: relative;
+	perspective: 300px;
+	user-select: none;
+}
+.game .list{
+	margin-top: 48px;
+}
+.game .card{
+	color: #fff;
+}
+.game .card-title{
+	margin-right: 15px;
+}
+.game .nail{
+	position: absolute;
+	top: 5px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #fff;
+	box-shadow: 0 0 3px 2px #66BB6A inset;
+}
+.game .nail1{
+	left: 100px;
+}
+.game .nail2{
+	right: 100px;
+}
+.game .card-box{
+	width: 120px;
+	padding: 30px;
+	background-color: #4CAF50;
+	text-align: center;
+	margin: 0 auto;
+	box-shadow: 5px 5px 8px 1px #388E3C;
+	letter-spacing: 2px;
+}
+.game .pass-btn{
+	width: 180px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #4CAF50;
+	margin: 0 auto;
+	color: #fff;
+	border-bottom: 3px solid #2E7D32;
+	cursor: pointer;
+	letter-spacing: 2px;
+	box-sizing: border-box;
+}
+.game .pass-btn:active{
+	border-bottom: none;
+}
+.game .list1{
+	left: 65px;
+}
+.game .step-count{
+	margin-right: 10px;
+}
+.game .layer{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .25);
+	display: none;
+}
+
+.game .layer-box{
+	width: 240px;
+	height: 160px;
+	padding: 30px;
+	margin: 170px auto 0;
+	background-color: #4CAF50;
+	color: #fff;
+	font-size:20px;
+	text-align: center;
+}
+
+.game .know{
+	width: 180px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #2E7D32;
+	margin: 0 auto;
+	color: #fff;
+	cursor: pointer;
+	letter-spacing: 4px;
+	box-sizing: border-box;
+	margin-top: 50px;
+}

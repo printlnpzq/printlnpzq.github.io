@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>小人推箱子</title>
+	<link rel="stylesheet" type="text/css" href="css/pushBox.css" />
+</head>
+<body>
+
+	<div class="game">
+		
+		<div class="game-map gaming">
+			<!-- 游戏地图区域 -->
+			<canvas id="canvas" width="560" height="560"></canvas>
+		</div>
+		
+
+		<!-- 关卡序号，人物移动次数信息 -->
+		<div id="msg" class="game-info gaming">
+			<ul class="game-info-list">
+				<li>
+					<i class="nail nail1"></i>
+					<i class="nail nail2"></i>
+					<div class="card-box">
+						<span class="card-title card">目前关卡</span><span id="cardCount" class="card-count card">1</span>
+					</div>
+				</li>
+				<li class="list">
+					<i class="nail list1"></i>
+					<div class="pass-btn">
+						<span class="step-count">移动步数</span>
+						<span id="stepCount">0</span>
+					</div>
+				</li>
+				<li id="-1" class="list level">
+					<i class="nail list1"></i>
+					<div class="pass-btn">上一关</div>
+				</li>
+				<li id="1" class="list level">
+					<i class="nail list1"></i>
+					<div class="pass-btn">下一关</div>
+				</li>
+				<li id="0" class="list level">
+					<i class="nail list1"></i>
+					<div class="pass-btn">重玩本关</div>
+				</li>
+				<li class="list">
+					<i class="nail list1"></i>
+					<div id="gameIntroduce" class="pass-btn">游戏说明</div>
+				</li>
+			</ul>
+		</div>
+
+		<div id="layer" class="layer">
+			<div class="layer-box">
+				<div>请按键盘方向键(上下左右箭头)进行移动人物</div>
+				<div id="know" class="know">知道了</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="./js/mapdata.js"></script>
+	<script type="text/javascript" src="./js/game.js"></script>
+</body>
+</html>
